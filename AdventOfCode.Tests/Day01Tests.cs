@@ -58,7 +58,7 @@ namespace _2023
         }
 
         [Fact]
-        public void SecondStage_SingleStringShouldReturnCorrectResults()
+        public void SecondStage_AllSamplesReturnCorrectValue()
         {
             var input = new List<string>();
             foreach (var objects in _sampleDataStage2)
