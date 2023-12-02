@@ -26,7 +26,7 @@ namespace AdventOfCode.Solutions._2023
             {"eight",'8'},
             {"nine",'9'}
         };
-        public string ChallangeName => "Trebuchet?!";
+        public string ChallangeName => "2023, Day 01: Trebuchet?!";
 
         public bool HasSecondStage => true;
 

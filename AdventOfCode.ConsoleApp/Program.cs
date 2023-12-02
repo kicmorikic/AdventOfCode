@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 
 List<IChallangeSolution> challanges = new();
 challanges.Add(new Day01());
+challanges.Add(new Day02());
 
 int i = 0;
 foreach (var challange in challanges)
