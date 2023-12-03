@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 List<IChallangeSolution> challanges = new();
 challanges.Add(new Day01());
 challanges.Add(new Day02());
+challanges.Add(new Day03());
 
 int i = 0;
 foreach (var challange in challanges)
@@ -46,9 +47,10 @@ if (regexResult.Success)
                 Console.WriteLine(choice.GetSecondStageResult(GetFileContents($"../../../{choice.SecondStageInputPath}")));
             }
         }
-        catch
+        catch(Exception ex)
         {
             Console.WriteLine($"No challange registered with \"{chosenResult}\"");
+            Console.WriteLine(ex.ToString());
             return;
         }
 
