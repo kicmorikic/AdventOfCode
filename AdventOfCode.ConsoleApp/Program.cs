@@ -7,6 +7,7 @@ List<IChallangeSolution> challanges = new();
 challanges.Add(new Day01());
 challanges.Add(new Day02());
 challanges.Add(new Day03());
+challanges.Add(new Day04());
 
 int i = 0;
 foreach (var challange in challanges)
