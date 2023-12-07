@@ -8,6 +8,8 @@ challanges.Add(new Day01());
 challanges.Add(new Day02());
 challanges.Add(new Day03());
 challanges.Add(new Day04());
+challanges.Add(new Day05());
+challanges.Add(new Day06());
 
 int i = 0;
 foreach (var challange in challanges)

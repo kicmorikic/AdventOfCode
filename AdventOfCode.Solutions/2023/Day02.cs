@@ -88,7 +88,7 @@ public class Day02 : IChallangeSolution
                 string name = stageSplit[1];
                 gameRecordDictionary.Add(new KeyValuePair<string, int>(name,count));
             }
-            catch(Exception e) 
+            catch
             {
                 throw new ArgumentException($"String '{gameResult}' is in a wrong format");
             }
